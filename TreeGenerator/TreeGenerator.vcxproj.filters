@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\meshes">
+      <UniqueIdentifier>{94869d94-ee94-4090-95e3-f99fa50511e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\meshes">
+      <UniqueIdentifier>{74ee407e-400e-48c4-a584-8f077f1cd704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tools">
+      <UniqueIdentifier>{57969af2-9c60-4c78-a4fd-84cb4a71b13d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tools">
+      <UniqueIdentifier>{c56a5d2f-d74a-4c69-a9e2-674ccdfa3c22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders">
+      <UniqueIdentifier>{189b771c-711c-4396-a149-fccea136369e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\meshes\Ground.cpp">
+      <Filter>Source Files\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\meshes\Tree.cpp">
+      <Filter>Source Files\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\Vertex.cpp">
+      <Filter>Source Files\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\Random.cpp">
+      <Filter>Source Files\tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\meshes\Ground.h">
+      <Filter>Header Files\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\meshes\Tree.h">
+      <Filter>Header Files\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tools\Vertex.h">
+      <Filter>Header Files\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tools\Random.h">
+      <Filter>Header Files\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lab_camera.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lab_glut.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lab_glut_support.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lab_shader_loader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lab_texture_loader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\shaders\depth_fragment_shader.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="src\shaders\depth_geometry_shader.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="src\shaders\depth_vertex_shader.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="src\shaders\fragment_shader.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="src\shaders\vertex_shader.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
